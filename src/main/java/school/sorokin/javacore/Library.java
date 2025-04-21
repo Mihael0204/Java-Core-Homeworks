@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Library {
-    private List<Publication> publications;
+    private final List<Publication> publications;
 
     public void addPublication(Publication pub) {
         publications.add(pub);
